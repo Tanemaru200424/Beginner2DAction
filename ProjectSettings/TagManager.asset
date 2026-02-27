@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - HeadThroughGround
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - SceneOnlyMask
+  - Water
+  - UI
+  - Event
+  - EventSensor
+  - Ground
+  - PlayerGroundOverride
+  - GroundSensor
+  - Charactor
+  - HitBox
+  - HitBoxSensor
+  - VirtualCameraRange
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 2746296219
+    locked: 0
+  - name: Stage
+    uniqueID: 3747867421
+    locked: 0
+  - name: Charactor
+    uniqueID: 1743371701
+    locked: 0
+  - name: ActionUI
+    uniqueID: 754057155
+    locked: 0
+  - name: Effect
+    uniqueID: 1444744257
+    locked: 0
+  - name: UI
+    uniqueID: 3270713749
+    locked: 0

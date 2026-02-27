@@ -1,0 +1,938 @@
+fileFormatVersion: 2
+guid: 339260106e1d57a46a2417b3d47fed81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5992806357593262118
+    second: "\u7121\u984C365_0"
+  - first:
+      213: -2486542501009360754
+    second: "\u7121\u984C365_1"
+  - first:
+      213: 5815908942182393979
+    second: "\u7121\u984C365_2"
+  - first:
+      213: 7609439668554312405
+    second: "\u7121\u984C365_3"
+  - first:
+      213: -6484021271984028765
+    second: "\u7121\u984C365_4"
+  - first:
+      213: 2291187658296257953
+    second: "\u7121\u984C365_5"
+  - first:
+      213: -4874826787697178114
+    second: "\u7121\u984C365_6"
+  - first:
+      213: 2727538562634340345
+    second: "\u7121\u984C365_7"
+  - first:
+      213: 1567202242074868507
+    second: "\u7121\u984C365_8"
+  - first:
+      213: -6175056584757492063
+    second: "\u7121\u984C365_9"
+  - first:
+      213: 2104052481030065226
+    second: "\u7121\u984C365_10"
+  - first:
+      213: 3469155573706609252
+    second: "\u7121\u984C365_11"
+  - first:
+      213: 6261872594476736294
+    second: "\u7121\u984C365_12"
+  - first:
+      213: 8581248500887010657
+    second: "\u7121\u984C365_13"
+  - first:
+      213: 261079833753646947
+    second: "\u7121\u984C365_14"
+  - first:
+      213: 8886050690216678521
+    second: "\u7121\u984C365_15"
+  - first:
+      213: -1528212204800925484
+    second: "\u7121\u984C365_16"
+  - first:
+      213: -6019955949978677272
+    second: "\u7121\u984C365_17"
+  - first:
+      213: 8911809187027834958
+    second: "\u7121\u984C365_18"
+  - first:
+      213: 2989661637301303443
+    second: "\u7121\u984C365_19"
+  - first:
+      213: -6727901961984737325
+    second: "\u7121\u984C365_20"
+  - first:
+      213: -3651712769985367945
+    second: "\u7121\u984C365_21"
+  - first:
+      213: 7167972441243445509
+    second: "\u7121\u984C365_22"
+  - first:
+      213: 8401414659125840288
+    second: "\u7121\u984C365_23"
+  - first:
+      213: -2703693738782865050
+    second: "\u7121\u984C365_24"
+  - first:
+      213: 6396889173395384144
+    second: "\u7121\u984C365_25"
+  - first:
+      213: -4268386554948092574
+    second: "\u7121\u984C365_26"
+  - first:
+      213: -2660497705845125986
+    second: "\u7121\u984C365_27"
+  - first:
+      213: -3510287661281686489
+    second: "\u7121\u984C365_28"
+  - first:
+      213: 6391501285520278362
+    second: "\u7121\u984C365_29"
+  - first:
+      213: -3205341839141217098
+    second: "\u7121\u984C365_30"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abd4633a6d422f43815b9833aa07aa1
+      internalID: 1027271046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b707b29f7a4a7c43b267b3d67d845b9
+      internalID: 1682160221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9cc9efa2e312145be29c514dae2331
+      internalID: -1151159666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_3
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc5fd287af8f1045bdf1a638736d7d1
+      internalID: -1116784330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053dc7695a8d1ec458dcc31459c91f56
+      internalID: 676531761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_5
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4cddd7ff9579f4e971d753127e2734
+      internalID: -318762404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_6
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ec881f3a1d025428cbbbfea0b14ad3
+      internalID: 1577805443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_7
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c667d24cafad78a4f964752cb195685c
+      internalID: -513906554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b577c5636a39b124dbb85a9fe81e567b
+      internalID: 1644140534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d63cdaa19ea5e44a539765c1a27fd2
+      internalID: -573705843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32e941862c51054f987e75e93b42580
+      internalID: -622139872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_11
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f86a25310591304582c4d25ce55cd15
+      internalID: 302324791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c066a672e9c330c46a2817dfb5ca992f
+      internalID: -1648058153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_13
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1685ecd326ed85418887fef8b104633
+      internalID: 1831430097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_14
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aae5dae025d8f46add6bde5a2bcdb4
+      internalID: -1683376993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_15
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4518b2fc6a05440a6651878daad4f4
+      internalID: 1287025964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4e3f59a0dc80643a62e5a58ccbf44b
+      internalID: 432952216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7eb37025411fe44b7b6b9d0a7cc07b
+      internalID: -1527491449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_18
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f382583a818254a9f17f1de2baf5e2
+      internalID: -1427358896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f7329a839ea7743ab0cbbb15a98a6f
+      internalID: -1308410393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06eb269cd70a4e479e0c86fa887ad5c
+      internalID: 1494573435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_21
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983bc0f0063699a4a938032900d61389
+      internalID: 2073120015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_22
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fe7b5fe8285ac4d8b9c43f71ad2370
+      internalID: -1276188749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_23
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bd68eedd618d34c98fe6d7f8c095a1
+      internalID: -1860734177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6feb7dea30d415f4fb14a65373f4acde
+      internalID: -368053479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0c22d56796fa141a6c06bf1b45e0cd
+      internalID: 333748548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a343619d61a9b49449ba1c9b78c6199c
+      internalID: 1293133703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_27
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947e9d3bec70b154a9aaec061570e548
+      internalID: 1154319024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81d6fbffad89144480908d0173c768e
+      internalID: -1006945476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_29
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec13515765bea349ab89d516f6e8d8a
+      internalID: 1156489925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndoorGroundTileImages_30
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4da3bb9ba450042aebb6d414aa0150
+      internalID: 1101554977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 97a57479daf998b47a5ddccc799f4975
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":192.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      IndoorGroundTileImages_0: 1027271046
+      IndoorGroundTileImages_1: 1682160221
+      IndoorGroundTileImages_10: -622139872
+      IndoorGroundTileImages_11: 302324791
+      IndoorGroundTileImages_12: -1648058153
+      IndoorGroundTileImages_13: 1831430097
+      IndoorGroundTileImages_14: -1683376993
+      IndoorGroundTileImages_15: 1287025964
+      IndoorGroundTileImages_16: 432952216
+      IndoorGroundTileImages_17: -1527491449
+      IndoorGroundTileImages_18: -1427358896
+      IndoorGroundTileImages_19: -1308410393
+      IndoorGroundTileImages_2: -1151159666
+      IndoorGroundTileImages_20: 1494573435
+      IndoorGroundTileImages_21: 2073120015
+      IndoorGroundTileImages_22: -1276188749
+      IndoorGroundTileImages_23: -1860734177
+      IndoorGroundTileImages_24: -368053479
+      IndoorGroundTileImages_25: 333748548
+      IndoorGroundTileImages_26: 1293133703
+      IndoorGroundTileImages_27: 1154319024
+      IndoorGroundTileImages_28: -1006945476
+      IndoorGroundTileImages_29: 1156489925
+      IndoorGroundTileImages_3: -1116784330
+      IndoorGroundTileImages_30: 1101554977
+      IndoorGroundTileImages_4: 676531761
+      IndoorGroundTileImages_5: -318762404
+      IndoorGroundTileImages_6: 1577805443
+      IndoorGroundTileImages_7: -513906554
+      IndoorGroundTileImages_8: 1644140534
+      IndoorGroundTileImages_9: -573705843
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
