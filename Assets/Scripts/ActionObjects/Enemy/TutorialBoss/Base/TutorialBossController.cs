@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //ボスの行動パターンを司る。
-public class TBController : MonoBehaviour
+public class TutorialBossController : MonoBehaviour
 {
-    private TBState state = null;
-    private TBAttack attack = null;
-    private TBMove move = null;
+    private TutorialBossState state = null;
+    private TutorialBossAttack attack = null;
+    private TutorialBossMove move = null;
 
     [SerializeField] private float maxCoolTime = 0.5f;
     private float nowCoolTime = 0;
@@ -15,9 +15,9 @@ public class TBController : MonoBehaviour
     
     void Awake()
     {
-        state = GetComponent<TBState>();
-        attack = GetComponent<TBAttack>();
-        move = GetComponent<TBMove>();
+        state = GetComponent<TutorialBossState>();
+        attack = GetComponent<TutorialBossAttack>();
+        move = GetComponent<TutorialBossMove>();
         nowCoolTime = maxCoolTime;
         tackleSwitch = true;
     }

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //登場ステートから出た時に呼ぶ。登場イベント終了して通常状態にする。
-public class TBEntryStateExit : StateMachineBehaviour
+public class TutorialBossEntryStateExit : StateMachineBehaviour
 {
-    private TBAnimationEvents animationEvents = null;
+    private TutorialBossAnimationEvents animationEvents = null;
 
     public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (animationEvents == null) { animationEvents = animator.GetComponent<TBAnimationEvents>(); }
+        if (animationEvents == null) { animationEvents = animator.GetComponent<TutorialBossAnimationEvents>(); }
         animationEvents?.BirthEnd();
     }
 }

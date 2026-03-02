@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TBAttack : MonoBehaviour
+public class TutorialBossAttack : MonoBehaviour
 {
-    private TBState state = null;
-    private TBEffectGenerator effectGenerator = null;
+    private TutorialBossState state = null;
+    private TutorialBossEffectGenerator effectGenerator = null;
     [SerializeField] private Collider2D bodyAttack2D = null;
-    [SerializeField] private TBAnimation tbAnimation = null;
+    [SerializeField] private TutorialBossAnimation tbAnimation = null;
     [SerializeField] private Transform shootTrans = null;
     [SerializeField] private AccessoriesLoopEffect tackleEffect = null;
 
     void Awake()
     {
-        state = GetComponent<TBState>();
-        effectGenerator = GetComponent<TBEffectGenerator>();
+        state = GetComponent<TutorialBossState>();
+        effectGenerator = GetComponent<TutorialBossEffectGenerator>();
         tackleEffect.Init();
     }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TBMove : MonoBehaviour
+public class TutorialBossMove : MonoBehaviour
 {
     [SerializeField] private float minTackleSpeed = 10; //�ő�ːi���x
     [SerializeField] private float maxTackleSpeed = 5; //�ŏ��ːi���x
@@ -11,7 +11,7 @@ public class TBMove : MonoBehaviour
     [SerializeField] private float yAccelerationDistance = 3; //�ő�A�ŏ����x�ւ̑J�ڂɕK�v�ȋ���
 
     private IAimPlayer iaimPlayer = null;
-    private TBState state = null; //�v���C���[��ԊǗ��X�N���v�g�B
+    private TutorialBossState state = null; //�v���C���[��ԊǗ��X�N���v�g�B
     [SerializeField] private AffectedByFloor affectedByFloor = null; //���̉e���`�B�X�N���v�g�B
     [SerializeField] private GroundChecker wallTackleStopper = null; //���̉e���`�B�X�N���v�g�B
     [SerializeField] private GroundChecker groundTackleStopper = null; //���̉e���`�B�X�N���v�g�B
@@ -25,7 +25,7 @@ public class TBMove : MonoBehaviour
     private void Awake()
     {
         iaimPlayer = GetComponent<IAimPlayer>();
-        state = GetComponent<TBState>();
+        state = GetComponent<TutorialBossState>();
         rigidBody2D = GetComponent<Rigidbody2D>();
     }
 

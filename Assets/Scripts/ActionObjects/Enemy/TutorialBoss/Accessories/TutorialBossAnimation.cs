@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TBAnimation : MonoBehaviour
+public class TutorialBossAnimation : MonoBehaviour
 {
     private Animator animator = null;
-    [SerializeField] private TBState state = null;
+    [SerializeField] private TutorialBossState state = null;
     [SerializeField] private GroundChecker groundChecker = null;
     private bool isGround = false;
 

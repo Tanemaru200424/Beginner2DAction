@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //よろけステートから出る時に使う。よろけから通常状態にする。
-public class TBDamageStateExit : StateMachineBehaviour
+public class TutorialBossDamageStateExit : StateMachineBehaviour
 {
-    private TBAnimationEvents animationEvents = null;
+    private TutorialBossAnimationEvents animationEvents = null;
 
     public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (animationEvents == null) { animationEvents = animator.GetComponent<TBAnimationEvents>(); }
+        if (animationEvents == null) { animationEvents = animator.GetComponent<TutorialBossAnimationEvents>(); }
         animationEvents?.DamageEnd();
     }
 }

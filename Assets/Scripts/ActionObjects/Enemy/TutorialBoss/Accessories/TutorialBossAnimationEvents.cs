@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TBAnimationEvents : MonoBehaviour
+public class TutorialBossAnimationEvents : MonoBehaviour
 {
-    [SerializeField] private TBState state = null;
-    [SerializeField] private TBEvents events = null;
-    [SerializeField] private TBAttack attack = null;
-    [SerializeField] private TBMove move = null;
-    [SerializeField] private TBDamage damage = null;
+    [SerializeField] private TutorialBossState state = null;
+    [SerializeField] private TutorialBossEvents events = null;
+    [SerializeField] private TutorialBossAttack attack = null;
+    [SerializeField] private TutorialBossMove move = null;
+    [SerializeField] private TutorialBossDamage damage = null;
 
     //アニメーションイベントで呼ぶ。
     public void Shoot()

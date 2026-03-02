@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TBPause : MonoBehaviour, IPausable
+public class TutorialBossPause : MonoBehaviour, IPausable
 {
-    private TBState state = null;
-    private TBMove move = null;
-    private TBAttack attack = null;
-    private TBController controller = null;
-    [SerializeField] private TBAnimation tbAnimation = null;
-    [SerializeField] private TBDamage damage = null;
+    private TutorialBossState state = null;
+    private TutorialBossMove move = null;
+    private TutorialBossAttack attack = null;
+    private TutorialBossController controller = null;
+    [SerializeField] private TutorialBossAnimation tbAnimation = null;
+    [SerializeField] private TutorialBossDamage damage = null;
 
     void Awake()
     {
-        state = GetComponent<TBState>();
-        move = GetComponent<TBMove>();
-        attack = GetComponent<TBAttack>();
-        controller = GetComponent<TBController>();
+        state = GetComponent<TutorialBossState>();
+        move = GetComponent<TutorialBossMove>();
+        attack = GetComponent<TutorialBossAttack>();
+        controller = GetComponent<TutorialBossController>();
     }
 
     public void Paused()

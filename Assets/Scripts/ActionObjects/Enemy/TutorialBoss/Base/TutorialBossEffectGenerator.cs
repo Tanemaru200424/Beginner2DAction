@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TBEffectGenerator : MonoBehaviour, IGenerator
+public class TutorialBossEffectGenerator : MonoBehaviour, IGenerator
 {
     [SerializeField] private GameObject bullet = null;
     [SerializeField] private GameObject shootEffect = null;

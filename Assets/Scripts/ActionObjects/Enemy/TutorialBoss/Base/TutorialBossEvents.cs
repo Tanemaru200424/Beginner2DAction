@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TBEvents : MonoBehaviour, ICharactorEvents
+public class TutorialBossEvents : MonoBehaviour, ICharactorEvents
 {
-    private TBState state = null;
-    private TBAttack attack = null;
-    private TBEffectGenerator effectGenerator = null;
-    [SerializeField] private TBAnimation tbAnimation = null;
+    private TutorialBossState state = null;
+    private TutorialBossAttack attack = null;
+    private TutorialBossEffectGenerator effectGenerator = null;
+    [SerializeField] private TutorialBossAnimation tbAnimation = null;
 
     void Awake()
     {
-        state = GetComponent<TBState>();
-        attack = GetComponent<TBAttack>();
-        effectGenerator = GetComponent<TBEffectGenerator>();
+        state = GetComponent<TutorialBossState>();
+        attack = GetComponent<TutorialBossAttack>();
+        effectGenerator = GetComponent<TutorialBossEffectGenerator>();
     }
 
     //ê∂ê¨éûÇ…ê∂ê¨ë§Ç™åƒÇ‘

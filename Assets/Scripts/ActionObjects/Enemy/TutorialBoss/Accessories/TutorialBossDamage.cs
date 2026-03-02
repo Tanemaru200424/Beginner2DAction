@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TBDamage : MonoBehaviour, IDamageable, IHittable
+public class TutorialBossDamage : MonoBehaviour, IDamageable, IHittable
 {
-    [SerializeField] private TBState state = null;
-    [SerializeField] private TBAnimation tbAnimation = null;
-    [SerializeField] private TBEvents events = null;
-    [SerializeField] private TBAttack attack = null;
-    [SerializeField] private TBEffectGenerator effectGenerator = null;
+    [SerializeField] private TutorialBossState state = null;
+    [SerializeField] private TutorialBossAnimation tbAnimation = null;
+    [SerializeField] private TutorialBossEvents events = null;
+    [SerializeField] private TutorialBossAttack attack = null;
+    [SerializeField] private TutorialBossEffectGenerator effectGenerator = null;
     [SerializeField] private BossDataForUI dataForUI = null;
     [SerializeField] private int maxHp = 30;
     [SerializeField] private SpriteRenderer charactorSprite = null;
