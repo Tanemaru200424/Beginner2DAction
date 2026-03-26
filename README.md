@@ -53,4 +53,4 @@ Assets/
 強制ダメージ：Zキー
 
 ## UnityRoomへのアクセス
-現在公開していません。後日チュートリアルのみの状態で公開する予定です。
+[こちら](https://unityroom.com/games/ke-bi_robo_trial)からUnityRoomで公開されているものを遊ぶことができます。未完成品なため冒頭部分のみプレイできるようにしています。
