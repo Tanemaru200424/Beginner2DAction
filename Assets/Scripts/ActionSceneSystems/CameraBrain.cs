@@ -24,7 +24,7 @@ public class CameraBrain : MonoBehaviour
     //ƒJƒƒ‰’Ç]“™‚Ì©“®ŒvZ‚ğ~‚ß‚éB
     public void AutoSwitch(bool isAuto)
     {
-        if (isAuto) { cinemachineBrain.m_UpdateMethod = CinemachineBrain.UpdateMethod.SmartUpdate; }
+        if (isAuto) { cinemachineBrain.m_UpdateMethod = CinemachineBrain.UpdateMethod.LateUpdate; }
         else { cinemachineBrain.m_UpdateMethod = CinemachineBrain.UpdateMethod.ManualUpdate; }
     }
 
