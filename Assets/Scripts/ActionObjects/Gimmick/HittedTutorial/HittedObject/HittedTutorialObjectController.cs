@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //�`���[�g���A���Ő�����΂��p�̃I�u�W�F�N�g�B
-public class HittedTutorialObjectController : MonoBehaviour, IHittable, IPausable
+public class HittedTutorialObjectController : MonoBehaviour, IHittable, IPausable, IAreaOverExtinctionable
 {
     [SerializeField] private HittedTutorialObjectHittedAttack attack = null;
     [SerializeField] private AccessoriesLoopEffect attentionMark = null;
@@ -90,6 +90,12 @@ public class HittedTutorialObjectController : MonoBehaviour, IHittable, IPausabl
                 this.transform.localScale = Vector3.Scale(currentScale, new Vector3(-1, 1, 1));
             }
         }
+    }
+
+    public bool CanExtinction() { return !isHitted && !isPause; }
+    public void Extinction()
+    {
+        Destroy(this.gameObject);
     }
 
     public void Paused()

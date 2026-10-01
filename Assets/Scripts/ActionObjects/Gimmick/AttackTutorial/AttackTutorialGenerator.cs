@@ -26,7 +26,7 @@ public class AttackTutorialGenerator : MonoBehaviour, IGenerator, IObjectContain
         };
         iareaObject.OnDeactive += () =>
         {
-            iaimPlayer.CancelPlayerTrans();
+            //iaimPlayer.CancelPlayerTrans();
             this.enabled = false;
         };
     }

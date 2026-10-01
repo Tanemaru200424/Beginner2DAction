@@ -7,8 +7,12 @@ public class AimPlayerObject : MonoBehaviour, IAimPlayer
 {
     private Transform playerTrans = null;
 
+    //生成されたとき、ギミックが起動したときにターゲット初期化により設定。
     public void SetPlayerTrans(Transform playerTrans) { this.playerTrans = playerTrans; }
-    public void CancelPlayerTrans() { playerTrans = null; }
+    public Transform GetPlayerTrans() { return playerTrans; }
+
+    //CancelしなくてもNullチェックが他の関数に入っているので不要と考えた。
+    //public void CancelPlayerTrans() { playerTrans = null; }
 
     public bool IsExistPlayer() {  return playerTrans != null; }
     public Vector3 GetPlayerPos() 

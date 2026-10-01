@@ -49,8 +49,12 @@ public class AreaManager : MonoBehaviour
             IAimPlayer iaimPlayer = refObject.GetComponent<IAimPlayer>();
             if (iaimPlayer != null)
             {
-                if (isactive) { aimPlayerManager.InitSetPlayerTrans(iaimPlayer); }
-                else { iaimPlayer.CancelPlayerTrans(); }
+                if (isactive)
+                {
+                    //aimPlayerManager.InitSetPlayerTrans(iaimPlayer);
+                    iaimPlayer.SetPlayerTrans(aimPlayerManager.PlayerTransform());
+                }
+                // else { iaimPlayer.CancelPlayerTrans(); }
             }
             IAreaObject iareaObject = refObject.GetComponent<IAreaObject>();
             iareaObject.ActiveSwitch(isactive);

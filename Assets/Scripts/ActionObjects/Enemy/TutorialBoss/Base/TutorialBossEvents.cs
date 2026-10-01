@@ -54,4 +54,14 @@ public class TutorialBossEvents : MonoBehaviour, ICharactorEvents
         Destroy(this.gameObject);
         OnDeathEnd?.Invoke();
     }
+
+    public void AreaOverExtinction()
+    {
+        state.DeathStart();
+        attack.BodyAttackSwitch(false);
+        effectGenerator.BulletClear();
+        OnDeathStart?.Invoke();
+        OnDeathEnd?.Invoke();
+        Destroy(this.gameObject);
+    }
 }

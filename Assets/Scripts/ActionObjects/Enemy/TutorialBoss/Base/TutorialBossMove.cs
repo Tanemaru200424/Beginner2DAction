@@ -29,6 +29,16 @@ public class TutorialBossMove : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
     }
 
+    private void Start()
+    {
+        //生成時に向き調整
+        if(iaimPlayer.IsExistPlayer() &&
+           this.transform.localScale.x * (this.transform.position.x - iaimPlayer.GetPlayerPos().x) > 0)
+        {
+            this.transform.localScale = Vector3.Scale(this.transform.localScale, new Vector3(-1, 1, 1));
+        }
+    }
+
     void Update()
     {
         if (state.IsFallStart()) { fallStartY = this.transform.position.y; }
@@ -60,8 +70,8 @@ public class TutorialBossMove : MonoBehaviour
     }
     //�R���g���[���[���ĂԁB�ːi�I�����m�p�B
     public bool IsReachTacklePoint() 
-    { 
-        if(wallTackleStopper.IsGround() || !groundTackleStopper.IsGround() || Mathf.Abs(this.transform.position.x - tackleEndX) < 0.1f) {  return true; }
+    {
+        if (wallTackleStopper.IsGround() || !groundTackleStopper.IsGround() || Mathf.Abs(this.transform.position.x - tackleEndX) < 0.1f) {  return true; }
         return false; 
     }
 

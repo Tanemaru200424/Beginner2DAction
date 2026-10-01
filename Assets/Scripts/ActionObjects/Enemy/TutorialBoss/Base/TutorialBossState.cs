@@ -96,7 +96,7 @@ public class TutorialBossState : MonoBehaviour
     }
 
     //攻撃可能か。
-    private bool CanAttack() { return currentBase == BaseState.CHARGE && iaimPlayer.IsExistPlayer() && !isPause; }
+    private bool CanAttack() { return currentBase == BaseState.CHARGE /*&& iaimPlayer.IsExistPlayer()*/ && !isPause; }
     //攻撃待機終了。アニメーションイベントが呼ぶ。
     public void TackleChargeEnd()
     {

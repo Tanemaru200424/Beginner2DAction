@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TutorialBossDamage : MonoBehaviour, IDamageable, IHittable
+public class TutorialBossDamage : MonoBehaviour, IDamageable, IHittable, IAreaOverExtinctionable
 {
     [SerializeField] private TutorialBossState state = null;
     [SerializeField] private TutorialBossAnimation tbAnimation = null;
@@ -85,7 +85,12 @@ public class TutorialBossDamage : MonoBehaviour, IDamageable, IHittable
         effectGenerator.GenerateDownEffect();
     }
 
-    //アニメーションイベントで使うエフェクト無効
+    public bool CanExtinction() { return state.CanDamage() && !isPause; }
+    public void Extinction()
+    {
+        events.AreaOverExtinction();
+    }
+
     public void EffectOff() { damageEffect.EffectSwitch(false); }
 
     public void PauseSwitch(bool ispause)

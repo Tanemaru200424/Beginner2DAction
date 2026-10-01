@@ -19,7 +19,7 @@ public class PlayerGenerator : MonoBehaviour, IGenerator
     [SerializeField] private ActionUIController actionUIController = null;
     [SerializeField] private CameraBrain cameraBrain = null;
     [SerializeField] private PauseManager pauseManager = null;
-    [SerializeField] private AimPlayerManager aimPlayerManager = null;
+    //[SerializeField] private AimPlayerManager aimPlayerManager = null;
     [SerializeField] private StageManager stageManager = null;
 
     public bool isEntry { get; private set; } = false;
@@ -126,7 +126,7 @@ public class PlayerGenerator : MonoBehaviour, IGenerator
 
     public void DeathStart()
     {
-        aimPlayerManager.AllCancelPlayerTrans();
+        //aimPlayerManager.AllCancelPlayerTrans();
         PlayerInputActiveSwitch(false); //“ü—Í–³Œü
         isDead = true;
         isRetire = true;

@@ -12,12 +12,14 @@ public interface IObjectContainer
     public void RemoveObject(GameObject obj);
 }
 //攻撃時にオブジェクト生成するなど自分以外のオブジェクトを作り出すオブジェクトに付ける。
+//一般的なオブジェクト生成でも使える。
 public interface IGenerator
 {
     public void SetObjectContainer(IObjectContainer iobjectContainer);//生成オブジェクト登録先のコンテナ。
-    public GameObject Generate(GameObject generateObject, Vector3 generatePos, Vector3 generateScale, float zAngle);//登録されたコンテナにゲームオブジェクトと生成時の設定を反映し生成。
-                                                                                                           //生成対象、生成位置、生成時のスケール、z軸角度
-                                                                                                           //ゲームオブジェクトを返すので最初の登録も可能。
+                                                                      //public GameObject Generate(GameObject generateObject, Vector3 generatePos, Vector3 generateScale, float zAngle);//登録されたコンテナにゲームオブジェクトと生成時の設定を反映し生成。
+                                                                      //生成対象、生成位置、生成時のスケール、z軸角度
+                                                                      //ゲームオブジェクトを返すので最初の登録も可能。
+    public GameObject Generate(GameObject generateObject, Vector3 generatePos, Vector3 generateScale, float zAngle);
     public void InitRegist(IObjectContainer iobjectContainer, GameObject generateObject); //生成したオブジェクトが有効なら最初に登録。更にここで生成オブジェクトで登録、解除イベントを登録。
 }
 //コンテナに入っているオブジェクト。生成時にコンテナへの登録、解除イベントを登録
@@ -46,7 +48,8 @@ public interface IActionObjectLabel
 public interface IAimPlayer
 {
     public void SetPlayerTrans(Transform playerTrans); //ターゲット設定
-    public void CancelPlayerTrans(); //ターゲット解除
+    public Transform GetPlayerTrans(); //追従の伝播で実装
+    //public void CancelPlayerTrans(); //ターゲット解除
     public bool IsExistPlayer(); //ターゲットが存在しているか
     public Vector3 GetPlayerPos(); //ターゲットの位置だけ返す。
 }
@@ -77,7 +80,7 @@ public interface IDamageable
 {
     public bool CanDamage(); //ダメージが与えられる状態か。参照側が使う。
     public void Damage(int value); //数値分のダメージを受ける。
-    public void FatalDamage(); //即死ダメージ。残り体力ダメージを与えるのと同じ。 
+    public void FatalDamage(); //残り体力分のダメージを受ける。
     public void Dead(); //死亡
 }
 //プレイヤーの攻撃で吹き飛ばせるオブジェクトに付ける。
@@ -86,6 +89,13 @@ public interface IHittable
 {
     public bool CanHitted();
     public void Hitted(float angle); //チャージ攻撃された時の吹き飛びアングルを引数で渡す。
+}
+//エリア外に出た時に生きているならアニメーションなしに破棄したい。
+//その時イベントは起こしたい。エリア外消滅用。
+public interface IAreaOverExtinctionable
+{
+    public bool CanExtinction();
+    public void Extinction();
 }
 
 //キャラクターの誕生・死亡イベント。

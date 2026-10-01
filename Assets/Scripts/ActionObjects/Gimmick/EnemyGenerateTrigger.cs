@@ -1,14 +1,15 @@
 using UnityEngine;
 
-public class BossBattleTrigger : MonoBehaviour
+//ç‰¹å®šç¯„å›²ã«ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ãŒå…¥ã£ãŸã‚‰æ•µç¾¤ã‚’ç”Ÿæˆã™ã‚‹ãƒˆãƒªã‚¬ãƒ¼ã€‚
+public class EnemyGenerateTrigger : MonoBehaviour
 {
     private BoxCollider2D boxCollider2D = null;
-    private BossBattleEvents bossBattleEvents = null;
+    private EnemyGenerator enemyGenerator = null;
 
     void Awake()
     {
         boxCollider2D = GetComponent<BoxCollider2D>();
-        bossBattleEvents = GetComponent<BossBattleEvents>();
+        enemyGenerator = GetComponent<EnemyGenerator>();
         IAreaObject iareaObject = GetComponent<IAreaObject>();
         iareaObject.OnActive += () =>
         {
@@ -20,10 +21,10 @@ public class BossBattleTrigger : MonoBehaviour
         };
     }
 
-    //ƒvƒŒƒCƒ„[‚É‚Â‚¢‚Ä‚¢‚éƒCƒxƒ“ƒgƒZƒ“ƒT[‚Æ‚¾‚¯ˆø‚ÁŠ|‚©‚éB
-    void OnTriggerStay2D(Collider2D playerCol)
+    //ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã«ã¤ã„ã¦ã„ã‚‹ã‚¤ãƒ™ãƒ³ãƒˆã‚»ãƒ³ã‚µãƒ¼ã¨ã ã‘å¼•ã£æ›ã‹ã‚‹ã€‚
+    void OnTriggerEnter2D(Collider2D playerCol)
     {
         boxCollider2D.enabled = false;
-        bossBattleEvents.BattleStartTrigger();
+        enemyGenerator.GenerateEnemy();
     }
 }

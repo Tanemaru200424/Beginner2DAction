@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject backGroundObject = null; //背景オブジェクト
     [SerializeField] private Transform playerGenerateTrans = null; //プレイヤー生成位置
     [SerializeField] private AreaManager startArea = null; //開始エリア
+    [SerializeField] private List<AreaManager> areaManagers = new List<AreaManager>();
     [SerializeField] private CinemachineVirtualCamera startCamera = null; //プレイヤー生成中のカメラ
 
     //レベルで共通のものはステージ管理者がまとめて登録
@@ -21,6 +22,8 @@ public class LevelManager : MonoBehaviour
     public bool IsPlayerStartFlip => playerGenerateTrans.localScale.x < 0;
     public AreaManager StartArea => startArea;
 
+    //ステージ管理者に自分が持つエリアを全て渡す
+    public List<AreaManager> AllAreaManagers() { return areaManagers; }
     //ステージ管理者に呼んでもらう。開始演出時プレイヤー追従カメラを登録。
     public void SetCameraBrain(CameraBrain cameraBrain) { this.cameraBrain = cameraBrain; }
 

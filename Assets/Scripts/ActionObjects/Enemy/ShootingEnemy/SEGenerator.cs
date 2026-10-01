@@ -64,6 +64,6 @@ public class SEGenerator : MonoBehaviour, IGenerator, IObjectContainer
 
         //プレイヤーをターゲットとして登録
         IAimPlayer iaimPlayer = enemy.GetComponent<IAimPlayer>();
-        if(iaimPlayer != null) { aimPlayerManager.InitSetPlayerTrans(iaimPlayer); }
+        //if(iaimPlayer != null) { aimPlayerManager.InitSetPlayerTrans(iaimPlayer); }
     }
 }

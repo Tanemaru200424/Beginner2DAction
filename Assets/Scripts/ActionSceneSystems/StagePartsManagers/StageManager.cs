@@ -10,7 +10,7 @@ public class StageManager : MonoBehaviour
     [SerializeField] private CameraBrain cameraBrain = null; //レベルとエリアに渡すカメラ。
 
     [SerializeField] private List<LevelManager> levelManagers = new List<LevelManager>();
-    [SerializeField] private List<AreaManager> areaManagers = new List<AreaManager>();
+    private List<AreaManager> areaManagers = new List<AreaManager>();
     [SerializeField] private LevelManager initStartLevel = null; //最初の開始レベル。
     private LevelManager nowStartLevel = null; //現在の開始レベル。
     public Vector3 PlayerGeneratePos => nowStartLevel.PlayerGeneratePos;
@@ -20,15 +20,17 @@ public class StageManager : MonoBehaviour
     void Awake()
     {
         IObjectContainer iobjectContainer = actionObjectContainer.GetComponent<IObjectContainer>();
-        foreach(AreaManager areaManager in areaManagers)
+        areaManagers.Clear();
+        foreach (LevelManager levelManager in levelManagers)
+        {
+            levelManager.SetCameraBrain(cameraBrain);
+            areaManagers.AddRange(levelManager.AllAreaManagers());
+        }
+        foreach (AreaManager areaManager in areaManagers)
         {
             areaManager.SetAimPlayerManager(aimPlayerManager);
             areaManager.SetGimmickToContainer(iobjectContainer);
             areaManager.SetCameraBrain(cameraBrain);
-        }
-        foreach(LevelManager levelManager in levelManagers)
-        {
-            levelManager.SetCameraBrain(cameraBrain);
         }
         nowStartLevel = initStartLevel;
     }

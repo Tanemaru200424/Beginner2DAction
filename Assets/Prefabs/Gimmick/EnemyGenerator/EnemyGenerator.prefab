@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8098793164011730656
+--- !u!1 &3524594468204765167
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,74 +8,73 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2098828606903820044}
-  m_Layer: 0
-  m_Name: GenerateTrans
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2098828606903820044
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8098793164011730656}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: -0.5, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2450007152029265935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8287000283767186707
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2450007152029265935}
-  - component: {fileID: 5769327075206355652}
-  - component: {fileID: 9074939653474250929}
-  - component: {fileID: 314665614569100914}
-  - component: {fileID: 6340642501881169290}
-  - component: {fileID: 186048444184910750}
-  - component: {fileID: 231392020140273784}
+  - component: {fileID: 8326579816359814908}
   m_Layer: 6
-  m_Name: BossBattleTrigger
+  m_Name: GeneratePos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2450007152029265935
+--- !u!4 &8326579816359814908
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287000283767186707}
+  m_GameObject: {fileID: 3524594468204765167}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45, y: -6.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 230421917605899956}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3602725407133208772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 230421917605899956}
+  - component: {fileID: 4850650641305443050}
+  - component: {fileID: 7447365768497773115}
+  - component: {fileID: 5148791292141092310}
+  - component: {fileID: 3032570044511991111}
+  - component: {fileID: 3769871828049609705}
+  m_Layer: 6
+  m_Name: EnemyGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &230421917605899956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3602725407133208772}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2098828606903820044}
+  - {fileID: 8326579816359814908}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &5769327075206355652
+--- !u!61 &4850650641305443050
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287000283767186707}
+  m_GameObject: {fileID: 3602725407133208772}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -113,79 +112,57 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 3}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &9074939653474250929
+--- !u!114 &7447365768497773115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287000283767186707}
+  m_GameObject: {fileID: 3602725407133208772}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 723d5d7f6ec281a478f61220e4c4aa71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &314665614569100914
+--- !u!114 &5148791292141092310
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287000283767186707}
+  m_GameObject: {fileID: 3602725407133208772}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6a37fc323038f1499facd7c373f75df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AimPlayerObject
---- !u!114 &6340642501881169290
+--- !u!114 &3032570044511991111
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287000283767186707}
+  m_GameObject: {fileID: 3602725407133208772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d52c611553ab5534cabea341ff6e4a98, type: 3}
+  m_Script: {fileID: 11500000, guid: e485b362dbf63464da6881f5b9466260, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossBattleTrigger
---- !u!114 &186048444184910750
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyGenerateTrigger
+--- !u!114 &3769871828049609705
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287000283767186707}
+  m_GameObject: {fileID: 3602725407133208772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb73a3088eef55445ab17ec5b492b27a, type: 3}
+  m_Script: {fileID: 11500000, guid: e4a34eb5ba358db47a5aa83d4c1ca00f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossBattleEvents
-  bossGate: {fileID: 0}
-  fadeImageController: {fileID: 0}
-  stageEventManager: {fileID: 0}
-  playerGenerator: {fileID: 0}
-  actionUIController: {fileID: 0}
-  stageManager: {fileID: 0}
-  objectCleaningManager: {fileID: 0}
-  cameraBrain: {fileID: 0}
-  offArea: {fileID: 0}
-  offLevel: {fileID: 0}
-  onLevel: {fileID: 0}
---- !u!114 &231392020140273784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287000283767186707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcf1a801576d03444abe0b3817cbb00b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossGenerator
-  originBoss: {fileID: 5989919854872700071, guid: 697e5714cd045ff4a87680ebd6dd9b21, type: 3}
-  bossGenerateTrans: {fileID: 2098828606903820044}
-  actionUIController: {fileID: 0}
+  m_EditorClassIdentifier: 
+  generateDataList:
+  - originEnemy: {fileID: 5989919854872700071, guid: 7d20cce81675c3a47928fc616a257675, type: 3}
+    originGenerateEffect: {fileID: 1345188401003394165, guid: 6d2b1a138d02fd24ca321e978d3ec190, type: 3}
+    effectSize: {x: 2, y: 2, z: 2}

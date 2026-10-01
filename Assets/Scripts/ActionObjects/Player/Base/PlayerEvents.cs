@@ -47,52 +47,14 @@ public class PlayerEvents : MonoBehaviour, ICharactorEvents
         Destroy(this.gameObject);
         OnDeathEnd?.Invoke();
     }
-}
 
-/*
- リファクタリング前のコード
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-//プレイヤーの登場退場クリア時イベント
-public class PlayerEvents : MonoBehaviour, ICharactorEvents 
-{
-    private PlayerController controller = null;
-
-    void Awake()
+    public void AreaOverExtinction()
     {
-        controller = GetComponent<PlayerController>();
-    }
-
-    public event System.Action OnEntryStart;
-    public void EntryStart()
-    {
-        controller.EntryStart();
-        OnEntryStart?.Invoke();
-    }
-
-    public event System.Action OnEntryEnd;
-    public void EntryEnd()
-    {
-        controller.EntryEnd();
-        OnEntryEnd?.Invoke();
-    }
-
-    public event System.Action OnRetireStart;
-    public void RetireStart()
-    {
-        controller.RetireStart();
-        OnRetireStart?.Invoke();
-    }
-
-    public event System.Action OnRetireEnd;
-    public void RetireEnd()
-    {
-        controller.RetireEnd();
-        OnRetireEnd?.Invoke();
+        state.DeathStart();
+        eventCol2D.enabled = false;
+        hitBoxCol2D.enabled = false;
+        OnDeathStart?.Invoke();
+        OnDeathEnd?.Invoke();
+        Destroy(this.gameObject);
     }
 }
-
- */
