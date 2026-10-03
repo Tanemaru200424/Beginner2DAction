@@ -8556,7 +8556,7 @@ MonoBehaviour:
   - {fileID: 609555196}
   - {fileID: 756792614}
   - {fileID: 278049255}
-  initStartLevel: {fileID: 609555196}
+  initStartLevel: {fileID: 278049255}
 --- !u!1 &777273921
 GameObject:
   m_ObjectHideFlags: 0
@@ -8815,19 +8815,19 @@ PrefabInstance:
     - target: {fileID: 3769871828049609705, guid: e52f89bfda4ae33449accd5c6ef37a4c, type: 3}
       propertyPath: generateDataList.Array.data[0].originEnemy
       value: 
-      objectReference: {fileID: 5989919854872700071, guid: 08c7539ea2c429e4c969f6f9f5bce49d, type: 3}
+      objectReference: {fileID: 7616406640209475398, guid: 482ba047a08391140affab9630ea3c5f, type: 3}
     - target: {fileID: 3769871828049609705, guid: e52f89bfda4ae33449accd5c6ef37a4c, type: 3}
       propertyPath: generateDataList.Array.data[1].originEnemy
       value: 
-      objectReference: {fileID: 5989919854872700071, guid: 08c7539ea2c429e4c969f6f9f5bce49d, type: 3}
+      objectReference: {fileID: 7616406640209475398, guid: 482ba047a08391140affab9630ea3c5f, type: 3}
     - target: {fileID: 3769871828049609705, guid: e52f89bfda4ae33449accd5c6ef37a4c, type: 3}
       propertyPath: generateDataList.Array.data[2].originEnemy
       value: 
-      objectReference: {fileID: 5989919854872700071, guid: 08c7539ea2c429e4c969f6f9f5bce49d, type: 3}
+      objectReference: {fileID: 7616406640209475398, guid: 482ba047a08391140affab9630ea3c5f, type: 3}
     - target: {fileID: 3769871828049609705, guid: e52f89bfda4ae33449accd5c6ef37a4c, type: 3}
       propertyPath: generateDataList.Array.data[3].originEnemy
       value: 
-      objectReference: {fileID: 5989919854872700071, guid: 08c7539ea2c429e4c969f6f9f5bce49d, type: 3}
+      objectReference: {fileID: 7616406640209475398, guid: 482ba047a08391140affab9630ea3c5f, type: 3}
     - target: {fileID: 3769871828049609705, guid: e52f89bfda4ae33449accd5c6ef37a4c, type: 3}
       propertyPath: generateDataList.Array.data[1].effectSize.x
       value: 2
