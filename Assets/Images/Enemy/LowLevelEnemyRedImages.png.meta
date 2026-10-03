@@ -1,9 +1,36 @@
 fileFormatVersion: 2
-guid: 07b6e7a333bf83149b20d42c2c75c84a
+guid: abb0b14c9ffb73648b576ba0a7c3915a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3882718940968789189
+    second: "\u7121\u984C415_0"
+  - first:
+      213: 5017776988586559403
+    second: "\u7121\u984C415_1"
+  - first:
+      213: -6349842777964444249
+    second: "\u7121\u984C415_2"
+  - first:
+      213: 9161006537371622295
+    second: "\u7121\u984C415_3"
+  - first:
+      213: 1451551073164619165
+    second: "\u7121\u984C415_4"
+  - first:
+      213: -7865152196900380942
+    second: "\u7121\u984C415_5"
+  - first:
+      213: -5493516490252711174
+    second: "\u7121\u984C415_6"
+  - first:
+      213: -8959737677781143610
+    second: "\u7121\u984C415_7"
+  - first:
+      213: -2645325070026489298
+    second: "\u7121\u984C415_8"
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -48,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +94,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,20 +107,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -106,8 +120,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
+  - serializedVersion: 4
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,192 +137,228 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SEShooterImages_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 768
-        width: 256
-        height: 256
-      alignment: 9
-      pivot: {x: 0.37, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b021dc4bd9052d4292b8618eb52abfd
-      internalID: -642352742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SEShooterImages_1
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 768
-        width: 256
-        height: 256
-      alignment: 9
-      pivot: {x: 0.37, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4518b42525b8a764ea8d9fcd929504d6
-      internalID: -1524949031
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SEShooterImages_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
-      alignment: 9
-      pivot: {x: 0.37, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a3a309d4e4497547954dfc3730d0a7c
-      internalID: 480207398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SEShooterImages_3
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
-      alignment: 9
-      pivot: {x: 0.37, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f757d3314e731f4896da24b7846d704
-      internalID: 1762240923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SEShooterImages_4
+      name: LowLevelEnemyRedImages_0
       rect:
         serializedVersion: 2
         x: 0
         y: 256
-        width: 256
-        height: 256
-      alignment: 9
-      pivot: {x: 0.37, y: 0.5}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89145ba509013264cbfa1ff39e340511
-      internalID: 650620877
+      spriteID: 02f07ee60f357d24d8cac2aa349455a6
+      internalID: -1367450822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SEShooterImages_5
+      name: LowLevelEnemyRedImages_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7f160f03d00a54d82956a3d93fa232
+      internalID: -52611757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowLevelEnemyRedImages_2
       rect:
         serializedVersion: 2
         x: 256
         y: 256
-        width: 256
-        height: 256
-      alignment: 9
-      pivot: {x: 0.37, y: 0.5}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85323918b37cb2f44b2d5642178aa5db
-      internalID: 1304089030
+      spriteID: 691eca2ce20d135498b8a7d680297de4
+      internalID: -1573265491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SEShooterImages_6
+      name: LowLevelEnemyRedImages_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296e35c4902233146b445b8d6dbbab4d
+      internalID: -814072533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowLevelEnemyRedImages_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c09f0a387551744e9490f86855043ad
+      internalID: -1879404104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowLevelEnemyRedImages_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65004dd3455387b47b026555d51f7a12
+      internalID: 272356460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowLevelEnemyRedImages_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
-      alignment: 9
-      pivot: {x: 0.37, y: 0.5}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9d86b4e1908e9e4b9216259851d644f
-      internalID: 1326001493
+      spriteID: c3932bc3b53c3ed479306f5d85cb36c0
+      internalID: -1168298988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SEShooterImages_7
+      name: LowLevelEnemyRedImages_7
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 0
-        width: 256
-        height: 256
-      alignment: 9
-      pivot: {x: 0.37, y: 0.5}
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f49533681b4f26444b62d23e54b89164
-      internalID: -807233181
+      spriteID: 9fbec530385779f4899a1945f60504bb
+      internalID: 886487313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowLevelEnemyRedImages_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931b6077b8a00c74e9c9501f5109a505
+      internalID: -1091609859
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: dc268baa6f77022499febb14d470222f
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      SEShooterImages_0: -642352742
-      SEShooterImages_1: -1524949031
-      SEShooterImages_2: 480207398
-      SEShooterImages_3: 1762240923
-      SEShooterImages_4: 650620877
-      SEShooterImages_5: 1304089030
-      SEShooterImages_6: 1326001493
-      SEShooterImages_7: -807233181
+      LowLevelEnemyRedImages_0: -1367450822
+      LowLevelEnemyRedImages_1: -52611757
+      LowLevelEnemyRedImages_2: -1573265491
+      LowLevelEnemyRedImages_3: -814072533
+      LowLevelEnemyRedImages_4: -1879404104
+      LowLevelEnemyRedImages_5: 272356460
+      LowLevelEnemyRedImages_6: -1168298988
+      LowLevelEnemyRedImages_7: 886487313
+      LowLevelEnemyRedImages_8: -1091609859
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

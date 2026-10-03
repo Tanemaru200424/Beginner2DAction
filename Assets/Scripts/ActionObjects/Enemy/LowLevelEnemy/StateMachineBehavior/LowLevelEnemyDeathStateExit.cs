@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LowLevelEnemyDamageStateExit : StateMachineBehaviour
+public class LowLevelEnemyDeathStateExit : StateMachineBehaviour
 {
     private LowLevelEnemyAnimationEvents animationEvents = null;
 
@@ -11,7 +11,7 @@ public class LowLevelEnemyDamageStateExit : StateMachineBehaviour
         if (!animator.IsInTransition(layerIndex))
         {
             if (animationEvents == null) { animationEvents = animator.GetComponent<LowLevelEnemyAnimationEvents>(); }
-            animationEvents?.DamageEnd();
+            animationEvents.DeathEnd();
         }
     }
 }

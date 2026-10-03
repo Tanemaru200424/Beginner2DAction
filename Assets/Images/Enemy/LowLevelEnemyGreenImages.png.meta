@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 6a98c6c0e17500a48b8d679a5ed5d596
+guid: bbbaeb848ea8ed644ad5c03a1ce7d90f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 563233010160501900
-    second: "\u7121\u984C400_0"
+      213: -7862173024233437952
+    second: "\u7121\u984C445_0"
   - first:
-      213: 8217330003525059131
-    second: "\u7121\u984C400_1"
+      213: 5266840241807612567
+    second: "\u7121\u984C445_1"
   - first:
-      213: -4139267303123222664
-    second: "\u7121\u984C400_2"
+      213: 7799002680140361614
+    second: "\u7121\u984C445_2"
   - first:
-      213: 809937420695808472
-    second: "\u7121\u984C400_3"
+      213: 5982474287830590933
+    second: "\u7121\u984C445_3"
   - first:
-      213: -2278163531644097120
-    second: "\u7121\u984C400_4"
+      213: 7723683596071143927
+    second: "\u7121\u984C445_4"
   - first:
-      213: 972145344298127061
-    second: "\u7121\u984C400_5"
+      213: 8662911646742655678
+    second: "\u7121\u984C445_5"
   - first:
-      213: -2525813065925160865
-    second: "\u7121\u984C400_6"
+      213: -7282488205926915617
+    second: "\u7121\u984C445_6"
   - first:
-      213: -8504477377104848334
-    second: "\u7121\u984C400_7"
+      213: 1631570875564188026
+    second: "\u7121\u984C445_7"
   - first:
-      213: -2613418637118970467
-    second: "\u7121\u984C400_8"
+      213: 8125358277088007417
+    second: "\u7121\u984C445_8"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -137,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LowLevelEnemy1Images_0
+      name: LowLevelEnemyGreenImages_0
       rect:
         serializedVersion: 2
         x: 0
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e9dea335cc6ca4788a718f924bd3f4
-      internalID: 1723763439
+      spriteID: cdd4eba99295baa4cb05b457b0ca394b
+      internalID: 911935442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowLevelEnemy1Images_1
+      name: LowLevelEnemyGreenImages_1
       rect:
         serializedVersion: 2
         x: 128
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d4ff93d2c32a70478c0bb852fdf5d13
-      internalID: 1217199902
+      spriteID: 7a7d17cf430236c4e8c60c4efb4820bf
+      internalID: 682716182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowLevelEnemy1Images_2
+      name: LowLevelEnemyGreenImages_2
       rect:
         serializedVersion: 2
         x: 256
@@ -196,14 +196,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a4258730e819d5429e61bfada61759e
-      internalID: 1073145234
+      spriteID: 78ab77e67a8eabc4f87a9c5f534bb62b
+      internalID: -1570576942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowLevelEnemy1Images_3
+      name: LowLevelEnemyGreenImages_3
       rect:
         serializedVersion: 2
         x: 0
@@ -218,14 +218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2916eee4bfb62524ea34d2f3e0340082
-      internalID: 541982297
+      spriteID: 5bbd1da46e830c048927d17e9b58d3f1
+      internalID: 1054323950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowLevelEnemy1Images_4
+      name: LowLevelEnemyGreenImages_4
       rect:
         serializedVersion: 2
         x: 128
@@ -240,14 +240,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 494bba65f5f1faf42b042188856e1315
-      internalID: -1254054767
+      spriteID: ffd73dfab6e3ef14296f2f7f403df955
+      internalID: 1146161062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowLevelEnemy1Images_5
+      name: LowLevelEnemyGreenImages_5
       rect:
         serializedVersion: 2
         x: 256
@@ -262,14 +262,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea9926a0beed0684da0afbe08dfb6368
-      internalID: 495902076
+      spriteID: a5f0ba1589f3c8449b6144bb90d0bfd3
+      internalID: -2133696394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowLevelEnemy1Images_6
+      name: LowLevelEnemyGreenImages_6
       rect:
         serializedVersion: 2
         x: 0
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d98632b2c491a3f4b8917bd66f411aad
-      internalID: -580803196
+      spriteID: aab44fecde8cb814abbfd0f163a62ecc
+      internalID: 1514896723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowLevelEnemy1Images_7
+      name: LowLevelEnemyGreenImages_7
       rect:
         serializedVersion: 2
         x: 128
@@ -306,14 +306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22da645ac9539a9459fdc4b08a3a0297
-      internalID: 528610327
+      spriteID: 5575b405ea9df9d4f8ee640008596288
+      internalID: 392476876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LowLevelEnemy1Images_8
+      name: LowLevelEnemyGreenImages_8
       rect:
         serializedVersion: 2
         x: 256
@@ -328,8 +328,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 535cced94bcba9b438a6a6e1462e80cf
-      internalID: 2061658558
+      spriteID: 644ef0a477e62b749a4d5861d7f9e5f5
+      internalID: -1967543711
       vertices: []
       indices: 
       edges: []
@@ -338,7 +338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: df0d6c848ef06e04d9f049cf7c09d47a
+    spriteID: 083b31ea7e2f57341b204963ee058378
     internalID: 0
     vertices: []
     indices: 
@@ -350,15 +350,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      LowLevelEnemy1Images_0: 1723763439
-      LowLevelEnemy1Images_1: 1217199902
-      LowLevelEnemy1Images_2: 1073145234
-      LowLevelEnemy1Images_3: 541982297
-      LowLevelEnemy1Images_4: -1254054767
-      LowLevelEnemy1Images_5: 495902076
-      LowLevelEnemy1Images_6: -580803196
-      LowLevelEnemy1Images_7: 528610327
-      LowLevelEnemy1Images_8: 2061658558
+      LowLevelEnemyGreenImages_0: 911935442
+      LowLevelEnemyGreenImages_1: 682716182
+      LowLevelEnemyGreenImages_2: -1570576942
+      LowLevelEnemyGreenImages_3: 1054323950
+      LowLevelEnemyGreenImages_4: 1146161062
+      LowLevelEnemyGreenImages_5: -2133696394
+      LowLevelEnemyGreenImages_6: 1514896723
+      LowLevelEnemyGreenImages_7: 392476876
+      LowLevelEnemyGreenImages_8: -1967543711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

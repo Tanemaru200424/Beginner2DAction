@@ -104,6 +104,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f8636ae75fe5f44a9fd53b35d3ef811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectCleaningManager: {fileID: 0}
-  offArea: {fileID: 0}
-  onArea: {fileID: 0}
+  areaChangeEvent: {fileID: 0}

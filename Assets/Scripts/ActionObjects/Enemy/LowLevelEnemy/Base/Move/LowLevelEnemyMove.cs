@@ -13,9 +13,9 @@ public class LowLevelEnemyMove : MonoBehaviour
     private Vector3 hittedStartPos = new Vector3(0, 0, 0);
     private Vector2 hittedVector = new Vector2 (0, 0);
 
-    private LowLevelEnemyState state = null;
+    protected LowLevelEnemyState state = null;
     [SerializeField] private AffectedByFloor affectedByFloor = null;
-    [SerializeField] private GroundChecker wallWalkStopper = null;
+    [SerializeField] protected GroundChecker wallWalkStopper = null;
 
     private float fallStartY = 0;
 
@@ -49,7 +49,7 @@ public class LowLevelEnemyMove : MonoBehaviour
         rigidBody2D.linearVelocity = new Vector2(UpdateXSpeed(), UpdateYSpeed());
     }
 
-    private Vector3 UpdateScale()
+    protected virtual Vector3 UpdateScale()
     {
         Vector3 result = this.transform.localScale;
         if (state.CanTurn() && wallWalkStopper.IsGround())
