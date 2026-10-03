@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 734473500761833981}
   - component: {fileID: 8440363458112041751}
   m_Layer: 11
-  m_Name: ShootingEnemy
+  m_Name: MiddleLevelEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
