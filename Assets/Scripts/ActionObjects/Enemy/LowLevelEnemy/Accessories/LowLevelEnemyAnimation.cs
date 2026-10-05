@@ -24,10 +24,7 @@ public class LowLevelEnemyAnimation : MonoBehaviour
     }
 
     //ダメージアニメーション再生。ダメージスクリプトが使う。
-    public void DamagePlay()
-    {
-        if (state.CanDamage()) { animator.Play("Damage"); }
-    }
+    public void DamagePlay() { animator.Play("Damage"); }
 
     //死亡アニメーション再生。イベントスクリプトが使う。
     public void DeathPlay() { animator.Play("Death"); }

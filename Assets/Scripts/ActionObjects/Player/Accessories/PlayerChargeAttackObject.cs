@@ -45,6 +45,7 @@ public class PlayerChargeAttackObject : MonoBehaviour
             }
 
             //ヒットフラグ立てたのちダメージ処理。
+            //ヒット処理後にダメージ死亡が起きたら敵は吹っ飛ぶ
             IDamageable idamageable = other.gameObject.GetComponent<IDamageable>();
             if (idamageable != null && idamageable.CanDamage()) 
             {

@@ -41,7 +41,7 @@ public class LowLevelEnemyDamage : MonoBehaviour, IDamageable, IHittable, IAreaO
         }
     }
 
-    public bool CanDamage() { return !isPause && nowHp > 0; }
+    public bool CanDamage() { return state.CanDamage() && !isPause && nowHp > 0; }
     public void Damage(int value)
     {
         nowHp -= value;

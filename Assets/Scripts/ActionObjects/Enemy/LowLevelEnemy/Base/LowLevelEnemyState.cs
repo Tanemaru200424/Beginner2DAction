@@ -59,7 +59,7 @@ public class LowLevelEnemyState : MonoBehaviour
     public bool IsWalkXMove() { return currentBase == BaseState.NOMAL && currentSub == SubState.GROUND && iaimPlayer.IsExistPlayer(); }
     public bool IsDamageXMove() { return currentBase == BaseState.DAMAGE; }
     //横移動出来ない（床の影響は受ける。）
-    public bool IsCantXMove() { return (currentBase == BaseState.NOMAL && (currentSub == SubState.FALL || !iaimPlayer.IsExistPlayer())) || currentBase == BaseState.DAMAGE; }
+    public bool IsCantXMove() { return currentBase == BaseState.NOMAL && (currentSub == SubState.FALL || !iaimPlayer.IsExistPlayer()); }
     //横移動無効（床の影響も無効。）
     public bool IsStopXMove() { return currentBase == BaseState.BIRTH || currentBase == BaseState.DEATH; }
     //吹き飛び移動状態

@@ -60,7 +60,8 @@ public class TutorialBossEffectGenerator : MonoBehaviour, IGenerator
     {
         if (generatedBullet != null)
         {
-            Destroy(generatedBullet);
+            if (generatedBullet.GetComponent<IRemovableLinkByHitted>()?.hasLinkRemoved() == false) { Destroy(generatedBullet); }
+            generatedBullet = null;
         }
     }
 

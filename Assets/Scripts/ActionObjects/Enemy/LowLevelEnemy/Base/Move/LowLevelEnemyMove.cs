@@ -93,7 +93,7 @@ public class LowLevelEnemyMove : MonoBehaviour
             result = -minYSpeed - (maxYSpeed - minYSpeed) * speedRatio + AffectedSpeed().y;
         }
         else if (state.IsStopYMove()) { result = 0; }
-        else if (state.IsHittedXMove()) { result = hittedSpeed * hittedVector.y; }
+        else if (state.IsHittedYMove()) { result = hittedSpeed * hittedVector.y; }
         return result;
     }
 

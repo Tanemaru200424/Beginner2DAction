@@ -9,24 +9,6 @@ public class BulletEffectsGenerator : MonoBehaviour, IGenerator
     [SerializeField] private GameObject hitEffect = null;
     [SerializeField] private GameObject hittedEffect = null;
 
-    public void GenerateHitEffect(Vector3 hitPos)
-    {
-        GameObject generatedEffect = Generate(hitEffect, hitPos, new Vector3(2, 2, 1), 0);
-        IContainedObject icontainedObject = generatedEffect.GetComponent<IContainedObject>();
-        icontainedObject.OnRegist += () => { iobjectContainer.RegistObject(generatedEffect); };
-        icontainedObject.OnRemove += () => { iobjectContainer.RemoveObject(generatedEffect); };
-        InitRegist(iobjectContainer, generatedEffect);
-    }
-
-    public void GenerateHittedEffect()
-    {
-        GameObject generatedEffect = Generate(hittedEffect, this.transform.position, new Vector3(2, 2, 1), 0);
-        IContainedObject icontainedObject = generatedEffect.GetComponent<IContainedObject>();
-        icontainedObject.OnRegist += () => { iobjectContainer.RegistObject(generatedEffect); };
-        icontainedObject.OnRemove += () => { iobjectContainer.RemoveObject(generatedEffect); };
-        InitRegist(iobjectContainer, generatedEffect);
-    }
-
     public void SetObjectContainer(IObjectContainer iobjectContainer)
     {
         this.iobjectContainer = iobjectContainer;
@@ -44,5 +26,23 @@ public class BulletEffectsGenerator : MonoBehaviour, IGenerator
         {
             iobjectContainer.RegistObject(generateObject);
         }
+    }
+
+    public void GenerateHitEffect(Vector3 hitPos)
+    {
+        GameObject generatedEffect = Generate(hitEffect, hitPos, new Vector3(2, 2, 1), 0);
+        IContainedObject icontainedObject = generatedEffect.GetComponent<IContainedObject>();
+        icontainedObject.OnRegist += () => { iobjectContainer.RegistObject(generatedEffect); };
+        icontainedObject.OnRemove += () => { iobjectContainer.RemoveObject(generatedEffect); };
+        InitRegist(iobjectContainer, generatedEffect);
+    }
+
+    public void GenerateHittedEffect()
+    {
+        GameObject generatedEffect = Generate(hittedEffect, this.transform.position, new Vector3(2, 2, 1), 0);
+        IContainedObject icontainedObject = generatedEffect.GetComponent<IContainedObject>();
+        icontainedObject.OnRegist += () => { iobjectContainer.RegistObject(generatedEffect); };
+        icontainedObject.OnRemove += () => { iobjectContainer.RemoveObject(generatedEffect); };
+        InitRegist(iobjectContainer, generatedEffect);
     }
 }

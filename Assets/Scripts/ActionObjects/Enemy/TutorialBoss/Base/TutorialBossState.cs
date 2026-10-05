@@ -51,7 +51,7 @@ public class TutorialBossState : MonoBehaviour
 
     //コントローラーが使う。
     //待機時間を減らす状態。
-    public bool CanCountCoolTime() { return currentBase == BaseState.NOMAL && currentSub == SubState.GROUND; }
+    public bool CanCountCoolTime() { return currentBase == BaseState.NOMAL && currentSub == SubState.GROUND && iaimPlayer.IsExistPlayer() && !isPause; }
     //突進状態か。
     public bool IsTackle() { return currentBase == BaseState.TACKLE; }
 
@@ -88,7 +88,7 @@ public class TutorialBossState : MonoBehaviour
     }
 
     //攻撃待機可能な状態か。攻撃スクリプトが呼ぶ。
-    public bool CanCharge() { return currentBase == BaseState.NOMAL && iaimPlayer.IsExistPlayer() && !isPause; }
+    public bool CanCharge() { return currentBase == BaseState.NOMAL && currentSub == SubState.GROUND && iaimPlayer.IsExistPlayer() && !isPause; }
     //攻撃待機開始。攻撃スクリプトが呼ぶ。
     public void ChargeStart()
     {

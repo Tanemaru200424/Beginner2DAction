@@ -44,6 +44,14 @@ public interface IActionObjectLabel
     public ActionObjectLabel GetLabel();
 }
 
+//吹き飛ばしを受けた弾が所有者破棄によって消えるのを防ぐために、所有者とのリンクを解除する。
+//現状はじく機能はプレイヤーの特権で、敵がはじき返すことはない。一度の変更機能だけとりあえずつける。かなり強引なので、将来的にはもっと良い方法を考える。
+public interface IRemovableLinkByHitted
+{
+    public bool hasLinkRemoved(); //変更後か
+    public void RemoveLinkByHitted(); //所有者変更。
+}
+
 //プレイヤーをターゲットとして位置参照するオブジェクトに付ける。Transformだと位置変更の権利も渡してしまうのでVectorだけ渡すのが最も良いが一端これ。
 public interface IAimPlayer
 {

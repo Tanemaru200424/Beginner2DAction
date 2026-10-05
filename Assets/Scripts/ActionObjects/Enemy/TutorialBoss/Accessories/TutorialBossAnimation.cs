@@ -5,7 +5,6 @@ using UnityEngine;
 public class TutorialBossAnimation : MonoBehaviour
 {
     private Animator animator = null;
-    [SerializeField] private TutorialBossState state = null;
     [SerializeField] private GroundChecker groundChecker = null;
     private bool isGround = false;
 
@@ -25,23 +24,13 @@ public class TutorialBossAnimation : MonoBehaviour
     }
 
     //攻撃待機状態に遷移。攻撃スクリプトが呼ぶ。
-    public void ShootChargeTrigger()
-    {
-        if (state.CanCharge()) { animator.SetTrigger("shootCharge"); }
-    }
-    public void TackleChargeTrigger()
-    {
-        if (state.CanCharge()) { animator.SetTrigger("tackleCharge"); }
-    }
+    public void ShootChargeTrigger(){ animator.SetTrigger("shootCharge"); }
+    public void TackleChargeTrigger(){ animator.SetTrigger("tackleCharge"); }
     //突進終了。攻撃スクリプトが呼ぶ。
     public void TackleEndTrigger() { animator.SetTrigger("tackleEnd"); }
 
     //ダメージアニメーション再生。ダメージスクリプトが使う。
-    public void DamagePlay()
-    {
-        if (state.CanDamage()) { animator.Play("Damage"); }
-    }
-
+    public void DamagePlay(){ animator.Play("Damage"); }
     //登場アニメーション再生。イベントスクリプトが使う。
     public void BirthPlay() { animator.Play("Birth"); }
     //死亡アニメーション再生。イベントスクリプトが使う。

@@ -8,7 +8,7 @@ public class InstantEffectExit : StateMachineBehaviour
 {
     public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(!animator.IsInTransition(layerIndex))
+        //if(!animator.IsInTransition(layerIndex))
         {
             Destroy(animator.gameObject);
         }
