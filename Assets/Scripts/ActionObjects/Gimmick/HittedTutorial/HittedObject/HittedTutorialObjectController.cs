@@ -9,7 +9,8 @@ public class HittedTutorialObjectController : MonoBehaviour, IHittable, IPausabl
     [SerializeField] private AccessoriesLoopEffect attentionMark = null;
     private HittedTutorialObjectEffectGenerator effectGenerator = null;
 
-    [SerializeField] private Animator animator = null;
+    [SerializeField] private Animator animator = null; 
+    private static readonly int hittedHash = Animator.StringToHash("hitted");
     [SerializeField] private float hittedSpeed = 0;
     [SerializeField] private float fallSpeed = 0;
     [SerializeField] private float hittedDistance = 0;
@@ -77,7 +78,7 @@ public class HittedTutorialObjectController : MonoBehaviour, IHittable, IPausabl
             Quaternion rotation = Quaternion.Euler(0, 0, angle);
             hittedVector = rotation * Vector2.right.normalized;
             hittedStartPos = this.transform.position;
-            animator.SetTrigger("hitted");
+            animator.SetTrigger(hittedHash);
             attack.AttackSwitch(true);
             effectGenerator.GenerateHittedEffect();
             attentionMark.EffectSwitch(false);

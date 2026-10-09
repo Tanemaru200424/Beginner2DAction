@@ -458,7 +458,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: airattack
+  - m_Name: airAttack
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -1064,7 +1064,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: charge
     m_Mirror: 0
-  m_BlendParameter: airattack
+  m_BlendParameter: airAttack
   m_BlendParameterY: charge
   m_MinThreshold: 0
   m_MaxThreshold: 1

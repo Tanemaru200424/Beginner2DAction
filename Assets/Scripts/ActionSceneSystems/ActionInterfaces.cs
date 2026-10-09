@@ -10,6 +10,10 @@ public interface IObjectContainer
 {
     public void RegistObject(GameObject obj);
     public void RemoveObject(GameObject obj);
+    //生成したオブジェクトより先に生成者側が破棄される場合、自身が登録したものを削除しないといけないので実装
+    //実行時に
+    //public event Action RegistProcess;
+    //public event Action RemoveProcess;
 }
 //攻撃時にオブジェクト生成するなど自分以外のオブジェクトを作り出すオブジェクトに付ける。
 //一般的なオブジェクト生成でも使える。
@@ -21,6 +25,11 @@ public interface IGenerator
                                                                       //ゲームオブジェクトを返すので最初の登録も可能。
     public GameObject Generate(GameObject generateObject, Vector3 generatePos, Vector3 generateScale, float zAngle);
     public void InitRegist(IObjectContainer iobjectContainer, GameObject generateObject); //生成したオブジェクトが有効なら最初に登録。更にここで生成オブジェクトで登録、解除イベントを登録。
+
+    //生成したオブジェクトより先に生成者側が破棄される場合、自身が登録したものを削除しないといけないので実装
+    //実行時に
+    //public event Action RegistProcess;
+    //public event Action RemoveProcess;
 }
 //コンテナに入っているオブジェクト。生成時にコンテナへの登録、解除イベントを登録
 public interface IContainedObject

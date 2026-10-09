@@ -65,8 +65,8 @@ public class TutorialBossState : MonoBehaviour
     //横移動無効（床の影響も無効。）
     public bool IsStopXMove() { return currentBase == BaseState.BIRTH || currentBase == BaseState.DEATH; }
     //縦移動状態について。挙動管理スクリプトで使う。
-    //通常
-    public bool IsNomalYMove() 
+    //縦移動出来ない（床の影響は受ける。）
+    public bool IsCantYMove() 
     { 
         return 
             ((currentBase == BaseState.NOMAL || currentBase == BaseState.DAMAGE) && currentSub == SubState.GROUND) || 
